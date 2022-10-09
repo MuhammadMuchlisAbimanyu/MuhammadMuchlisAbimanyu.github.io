@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>FluffyPaws Petcare</title>
+    <link rel='icon' href='image/icon/title-icon.ico'>
+    <link rel='stylesheet' href='style.css'>
+    <link rel='preconnect' href='https://fonts.googleapis.com'>
+    <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+    <link href='https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap' rel='stylesheet'>
+</head>
+<body>
+    <section class='header'>
+        <nav>
+            <!-- <img onmouseover='onImage()' onmouseout='outImage()' src='image\logo-white.png' alt='onImage' id='logo'> -->
+            <img src='image\logo-white.png'>
+            <div class='nav-links' id="navLinks">
+                <img class="icon-nav" onclick="hideMenu()" src="image/icon/cancel.png">
+                <ul>
+                    <li class="nav-bar"><a href='index.html'>HOME</a></li>
+                    <li class="nav-bar"><a href='#slide-about'>ABOUT</a></li>
+                    <li class="nav-bar"><a href='#slide-menu'>SERVICE</a></li>
+                    <li class="nav-bar"><a href='#slide-contact'>CONTACT</a></li>
+                    <li class="nav-bar"><img src='image/icon/moon.png' id='icon'></li>
+                    <li>
+                        <div class="row-nav">
+                            <div class="nav-col">
+                                <a href='' onclick='check()' class="sign-up">SIGN UP</a>
+                            </div>
+                            <div class="nav-col">
+                                <a href='' onclick='check()' class="login">LOGIN</a>
+                            </div>
+                        </div>
+                        <!-- <a href='' onclick='check()' class="sign-up">SIGN UP</a>
+                        <a href='' onclick='check()' class="login">LOGIN</a> -->
+                    </li>
+                    <!-- <li><a href='' class="login">LOGIN</a></li> -->
+                    
+                </ul>    
+            </div>
+            <img class="icon-nav" onclick="showMenu()" src="image/icon/bar.png">
+        </nav>
+    <div class='text-box'>
+        <h1>THE KIND OF CARE YOUR PETS DESERVE</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br> Nulla pariatur nisi impedit quae sed veniam facere.</p>
+        <a href='menu.html' class='button-home'>Learn More</a>
+    </div>
+    </section>
+
+    <section class='about'>
+        <p id="slide-about">
+        <h1 class='title-white-bg'>ABOUT US</h1>
+        <div class='row-about'>
+            <div class='about-col'>
+                <p class="about-content">FluffyPaws PetCare has been a well-established part of Samarinda City for over 25 years.</p><br>
+                <p class="about-content">We offer a warm welcome to all pet owners and patients and understand that a visit to the vets can be a stressful experience for pets and their owners alike. We offer a relaxing and professional environment, where you and your pets will feel happy and cared for during their visit.</p><br>
+                <p class="about-content">Whatever the reason for your visit, rest assured we are completely committed to do our very best for you and your pet.</p><br>
+            </div>
+            <div class='about-col'>
+                <p class="about-content">We pride ourselves in providing personable and compassionate lifelong healthcare and support. We feel proud and privileged to offer your pets a trustworthy and high quality veterinary care in a familiar environment. We are available 24 hours a day, 365 days a year, to support you and your pets in your time of need.</p><br>
+                <p class="about-content">We provide a comprehensive range of services to help keep your pets healthy and are able to provide the highest quality of veterinary care and attention should they become unwell.</h2><br>
+            </div>
+        </div>
+        </p>
+    </section>
+
+    <section class='menu'>
+        <p id="slide-menu">
+        <h1 class='title-white-bg'>OUR SERVICES</h1>
+        <div class='row-menu'>
+            <div class='menu-col'>
+                <div class='card-menu'>
+                    <img src='image/icon/grooming.png'>
+                    <h2 class='name-menu'>Pet Grooming</h2>
+                    <p class='price'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, neque. Pariatur distinctio, repellat unde id blanditiis ad quaerat aliquid delectus natus vitae dolorum laboriosam et numquam quae, modi rerum! Dolorem.</p>
+                    <a onclick='check()' class='button-menu'>Read More</a>
+                </div>
+            </div>
+            <div class='menu-col'>
+                <div class='card-menu'>
+                    <img class="icon-service" src='image/icon/pet-friendly.png'>
+                    <h2 class='name-menu'>Pet Shower</h2>
+                    <p class='price'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, neque. Pariatur distinctio, repellat unde id blanditiis ad quaerat aliquid delectus natus vitae dolorum laboriosam et numquam quae, modi rerum! Dolorem.</p>
+                    <a onclick='check()' class='button-menu'>Read More</a>
+                </div>
+            </div>
+            <div class='menu-col'>
+                <div class='card-menu'>
+                    <img class="icon-service" src='image/icon/cat.png'>
+                    <h2 class='name-menu'>Pet vet</h2>
+                    <p class='price'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, neque. Pariatur distinctio, repellat unde id blanditiis ad quaerat aliquid delectus natus vitae dolorum laboriosam et numquam quae, modi rerum! Dolorem.</p>
+                    <a onclick='check()' class='button-menu'>Read More</a>
+                </div>
+            </div>
+        </div>
+        <div class='row-menu'>
+            <div class='menu-col'>
+                <div class='card-menu'>
+                    <img class="icon-service" src='image/icon/pet-toy.png'>
+                    <h2 class='name-menu'>Onboarding</h2>
+                    <p class='price'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, neque. Pariatur distinctio, repellat unde id blanditiis ad quaerat aliquid delectus natus vitae dolorum laboriosam et numquam quae, modi rerum! Dolorem.</p>
+                    <a onclick='check()' class='button-menu'>Read More</a>
+                </div>
+            </div>
+            <div class='menu-col'>
+                <div class='card-menu'>
+                    <img class="icon-service" src='image/icon/vet.png'>
+                    <h2 class='name-menu'>Pet Care</h2>
+                    <p class='price'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, neque. Pariatur distinctio, repellat unde id blanditiis ad quaerat aliquid delectus natus vitae dolorum laboriosam et numquam quae, modi rerum! Dolorem.</p>
+                    <a onclick='check()' class='button-menu'>Read More</a>
+                </div>
+            </div>
+            <div class='menu-col'>
+                <div class='card-menu'>
+                    <img src='image/icon/dog.png'>
+                    <h2 class='name-menu'>Pet Rescue</h2>
+                    <p class='price'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, neque. Pariatur distinctio, repellat unde id blanditiis ad quaerat aliquid delectus natus vitae dolorum laboriosam et numquam quae, modi rerum! Dolorem.</p>
+                    <a onclick='check()' class='button-menu'>Read More</a>
+                </div>
+            </div>
+        </div>
+        </p>
+    </section>
+
+    <section class='contact'>
+        <p id="slide-contact">
+        <h1 class='title-white-bg'>CONTACT</h1>
+        <div class='row-contact'>
+            <div class='contact-col'>
+                <a href="https://www.instagram.com/mchls._"><img class="icon-contact" src='image/icon/instagram.png'></a>
+                <p class='name-menu'>WhatsApp</p>
+            </div>
+            <div class='contact-col'>
+                <a href="https://api.whatsapp.com/send/?phone=6281350502003&text&type=phone_number&app_absent=0"><img class="icon-contact" src='image/icon/whatsapp.png'></a>
+                <p class='name-menu'>Instagram</p>
+            </div>
+            <div class='contact-col'>
+                <a href="https://youtu.be/dQw4w9WgXcQ"><img class="icon-contact" src='image/icon/youtube.png'></a>
+                <p class='name-menu'>Youtube</p>
+            </div>
+        </div>
+        </p>
+    </section>
+
+    <section class='footer'>
+        <h1 id="footer-text">@Copyright 2022 - by Muhammad Muchlis Abimanyu</h1>
+    </section>
+    <script type='text/javascript' src='script.js'></script>
+</body>
+</html>
