@@ -47,11 +47,11 @@
                 </div>  
                 <div class="inputfield">
                     <label for="email">Email Address</label>
-                    <input type="text" name="email" class="input" placeholder="Your email address...">
+                    <input type="email" name="email" class="input" placeholder="Your email address...">
                 </div> 
                 <div class="inputfield">
                     <label for="phoneNumber">Phone Number</label>
-                    <input type="text" name="phoneNumber" class="input" placeholder="Your phone number...">
+                    <input type="number" name="phoneNumber" class="input" placeholder="Your phone number...">
                 </div> 
                 <div class="inputfield">
                     <label for="note">Note</label>
